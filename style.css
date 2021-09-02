@@ -1,0 +1,34 @@
+:root {
+}
+
+* {
+  margin: 0;
+  padding: 0;
+}
+
+html {
+  font-size: 62.5%;
+  font-family: Arial;
+}
+
+*,
+*:before,
+*:after {
+  box-sizing: inherit;
+}
+
+.container {
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  height: 100vh;
+  width: 100vw;
+  text-align: center;
+}
+
+input[type="text"] {
+  padding: 1rem;
+  display: inline-block;
+  font-size: 1.5rem;
+  width: 350px;
+}
