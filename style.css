@@ -17,6 +17,16 @@ html {
   box-sizing: inherit;
 }
 
+body {
+  background: rgb(2, 0, 36);
+  background: linear-gradient(
+    190deg,
+    rgba(2, 0, 36, 1) 0%,
+    rgba(9, 9, 121, 1) 35%,
+    rgba(0, 212, 255, 1) 100%
+  );
+}
+
 .container {
   display: flex;
   align-items: center;
@@ -31,4 +41,7 @@ input[type="text"] {
   display: inline-block;
   font-size: 1.5rem;
   width: 350px;
+  -webkit-box-shadow: 5px 5px 5px 0px rgba(185, 186, 201, 1);
+  -moz-box-shadow: 5px 5px 5px 0px rgba(185, 186, 201, 1);
+  box-shadow: 5px 5px 5px 0px rgba(185, 186, 201, 1);
 }
